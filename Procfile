@@ -1,1 +1,1 @@
-web: gunicorn attendence_site.wsgi --log-file -
+web: gunicorn tarik.wsgi --log-file -
