@@ -25,7 +25,7 @@ SECRET_KEY = 'njzh=vi5(lv!rnn$19s2@l&ouqc3w+d*hq^zgu^-0z^@u9)2)q'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['tareek-azmi.herokuapp.com', '127.0.0.1:8000']
+ALLOWED_HOSTS = ['tareek-azmi.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
