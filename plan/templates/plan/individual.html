@@ -1,0 +1,11 @@
+{% extends 'plan/basics/base.html' %}
+{% block content %}
+
+<h1>This is individual Page</h1>
+
+<img src="{{ plan.img.url }}" alt="" width="100" height="100">
+<h3>{{plan.title}}</h3>
+<h4>view pdf <a href="{% url 'payment' pk=plan.id %}">click here</a></h4>
+<p>{{plan.description}}</p>
+
+{% endblock content %}
